@@ -25,7 +25,7 @@ function App() {
       {/************************* HERO SECTION START *************************/}
 
       <section className="hero bg-heroBg bg-cover bg-bottom">
-        <div className="hero-wrapper relative z-10 h-[80vh] flex flex-col justify-between items-center p-12 text-white text-center">
+        <div className="hero-wrapper relative z-10 h-screen flex flex-col justify-between items-center p-12 text-white text-center">
           <nav className="logo ">
             <h1
               data-aos="fade-down"
@@ -54,17 +54,22 @@ function App() {
             </h1>
             <p
               data-aos="fade-down"
-              data-aos-delay="500"
+              data-aos-delay="1000"
               className="hero-text-paragraph text-sm md:text-lg"
             >
               Your home brew just got better.
             </p>
           </div>
-          <div data-aos="fade-right" className="hero-btn">
-            <button className="hero-btn-cta font-bold bg-white py-2 px-4 text-[#c8a287] tracking-wide hover:scale-105 hover:ease-in-out hover:duration-1000">
+          <div className="hero-btn">
+            <button
+              data-aos="fade-right"
+              data-aos-delay="1500"
+              className="hero-btn-cta font-bold bg-white py-2 px-4 text-[#c8a287] tracking-wide hover:scale-105 hover:ease-in-out hover:duration-1000"
+            >
               Learn More
             </button>
           </div>
+          <div></div>
         </div>
 
         {/************************* HERO SECTION END *************************/}
@@ -74,7 +79,7 @@ function App() {
       <section className="better-brews bg-cover flex flex-col justify-between items-top gap-8 px-8 py-12 pb-40 bg-[#fffbf5] md:flex md:flex-row">
         <div className="better-brews-header md:w-1/2  w-full">
           <h1
-            data-aos="fade-down"
+            data-aos="fade-right"
             className="font-frauncesFont text-clampHeader text-[#c8a287] "
           >
             Say goodbye to bland blends, and hello to
