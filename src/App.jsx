@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import "./App.css";
-import dailyDelo from "./images/daily-delo-img.jpg";
-import deloBlender from "./images/delo-blender.png";
+import dailyDelo from "./assets/images/daily-delo-img.jpg";
+import deloBlender from "./assets/images/delo-blender.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
