@@ -24,10 +24,7 @@ function App() {
     <>
       {/************************* HERO SECTION START *************************/}
 
-      <section
-        style={{ backgroundImage: "url(./src/images/Randelo-hero.jpg)" }}
-        className="hero bg-heroBg bg-cover bg-bottom"
-      >
+      <section className="hero bg-heroBg bg-cover bg-bottom">
         <div className="hero-wrapper relative z-10 h-screen flex flex-col justify-between items-center p-12 text-white text-center">
           <nav className="logo ">
             <h1
@@ -119,10 +116,7 @@ function App() {
       {/************************* DAILY DELO START *************************/}
 
       <section className="daily-delo md:grid md:grid-cols-2 md:grid-rows-1 grid grid-cols-1 grid-rows-2">
-        <div
-          style={{ backgroundImage: "url(./src/images/daily-delo-bg.jpg)" }}
-          className="daily-delo-header bg-cover bg-center pt-20 md:col-start-1 md:col-end-2 md:row-start-1 md:row-end-2 col-start-1 col-end-2 row-start-1 row-end-2"
-        >
+        <div className="daily-delo-header bg-dailyDeloBg bg-cover bg-center pt-20 md:col-start-1 md:col-end-2 md:row-start-1 md:row-end-2 col-start-1 col-end-2 row-start-1 row-end-2">
           <h1
             data-aos="fade-down"
             className="text-6xl font-robotoFont text-white text-center font-extrabold"
@@ -246,10 +240,7 @@ function App() {
 
       {/************************* TESTIMONIAL START *************************/}
 
-      <section
-        style={{ backgroundImage: "url(./src/images/testimonial-bg.jpg)" }}
-        className="delo-testimonials px-8 py-28 relative bg-center bg-cover"
-      >
+      <section className="delo-testimonials px-8 py-28 bg-testimonialsBg relative bg-center bg-cover">
         <div className="delo-testimonials-wrapper relative z-10 flex flex-col text-white md:gap-20 gap-10">
           <h1
             data-aos="fade-down"
@@ -323,10 +314,7 @@ function App() {
             </button>
           </div>
         </div>
-        <div
-          style={{ backgroundImage: "url(./src/images/home-made-img.jpg)" }}
-          className="home-made-img bg-cover bg-center md:col-start-2 md:col-end-3 md:row-start-1 md:row-end-2 col-start-1 col-end-2 row-start-1 row-end-2"
-        ></div>
+        <div className="home-made-img bg-cover bg-center bg-homeMadeBg md:col-start-2 md:col-end-3 md:row-start-1 md:row-end-2 col-start-1 col-end-2 row-start-1 row-end-2"></div>
       </section>
 
       {/************************* HOME MADE END *************************/}
@@ -334,10 +322,7 @@ function App() {
       {/************************* CONTACT START *************************/}
 
       <section className="contact bg-[#fffbf5] md:grid md:grid-cols-2 md:grid-rows-1 grid grid-cols-1 grid-rows-2">
-        <div
-          style={{ backgroundImage: "url(./src/images/contact-bg.jpg)" }}
-          className="contact-img bg-cover bg-center md:col-start-1 md:col-end-2 md:row-start-1 md:row-end-2 col-start-1 col-end-2 row-start-1 row-end-2"
-        ></div>
+        <div className="contact-img bg-contactBg bg-cover bg-center md:col-start-1 md:col-end-2 md:row-start-1 md:row-end-2 col-start-1 col-end-2 row-start-1 row-end-2"></div>
         <div className="contact-info md:col-start-2 md:col-end-3 md:row-start-1 md:row-end-2 col-start-1 col-end-2 row-start-2 row-end-3 py-20 px-10 ">
           <div
             data-aos="zoom-in"
