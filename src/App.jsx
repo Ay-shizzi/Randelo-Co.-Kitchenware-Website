@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import "./App.css";
-import dailyDelo from "./assets/images/daily-delo-img.jpg";
-import deloBlender from "./assets/images/delo-blender.png";
+import dailyDelo from "./images/daily-delo-img.jpg";
+import deloBlender from "./images/delo-blender.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -25,7 +25,7 @@ function App() {
       {/************************* HERO SECTION START *************************/}
 
       <section className="hero bg-heroBg bg-cover bg-bottom">
-        <div className="hero-wrapper relative z-10 h-screen flex flex-col justify-between items-center p-12 text-white text-center">
+        <div className="hero-wrapper relative z-10 h-[80vh] flex flex-col justify-between items-center p-12 text-white text-center">
           <nav className="logo ">
             <h1
               data-aos="fade-down"
