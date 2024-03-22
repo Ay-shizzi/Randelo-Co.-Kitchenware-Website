@@ -22,3 +22,26 @@ p {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.5);
 }
+.hero{
+    background: url("./src/images/Randelo-hero.jpg");
+}
+.daily-delo-header{
+    background: url("./src/images/daily-delo-bg.jpg");
+}
+.delo-testimonials {
+    background: url("./src/images/testimonial-bg.jpg");
+}
+.home-made-img {
+    background: url("./src/images/home-made-img.jpg");
+}
+.contact-img{
+    background: url("./src/images/contact-bg.jpg");
+}
+.hero, 
+.daily-delo-header, 
+.delo-testimonials, 
+.home-made-img, 
+.contact-img{
+    background-size: cover;
+    background-position: center;
+}

@@ -24,7 +24,7 @@ const Randelo = () => {
         <>
           {/************************* HERO SECTION START *************************/}
     
-          <section className="hero bg-heroBg bg-cover bg-bottom">
+          <section className="hero">
             <div className="hero-wrapper relative z-10 h-screen flex flex-col justify-between items-center p-12 text-white text-center">
               <nav className="logo ">
                 <h1
@@ -116,7 +116,7 @@ const Randelo = () => {
           {/************************* DAILY DELO START *************************/}
     
           <section className="daily-delo md:grid md:grid-cols-2 md:grid-rows-1 grid grid-cols-1 grid-rows-2">
-            <div className="daily-delo-header bg-dailyDeloBg bg-cover bg-center pt-20 md:col-start-1 md:col-end-2 md:row-start-1 md:row-end-2 col-start-1 col-end-2 row-start-1 row-end-2">
+            <div className="daily-delo-header pt-20 md:col-start-1 md:col-end-2 md:row-start-1 md:row-end-2 col-start-1 col-end-2 row-start-1 row-end-2">
               <h1
                 data-aos="fade-down"
                 className="text-6xl font-robotoFont text-white text-center font-extrabold"
@@ -240,7 +240,7 @@ const Randelo = () => {
     
           {/************************* TESTIMONIAL START *************************/}
     
-          <section className="delo-testimonials px-8 py-28 bg-testimonialsBg relative bg-center bg-cover">
+          <section className="delo-testimonials relative px-8 py-28">
             <div className="delo-testimonials-wrapper relative z-10 flex flex-col text-white md:gap-20 gap-10">
               <h1
                 data-aos="fade-down"
@@ -314,7 +314,7 @@ const Randelo = () => {
                 </button>
               </div>
             </div>
-            <div className="home-made-img bg-cover bg-center bg-homeMadeBg md:col-start-2 md:col-end-3 md:row-start-1 md:row-end-2 col-start-1 col-end-2 row-start-1 row-end-2"></div>
+            <div className="home-made-img md:col-start-2 md:col-end-3 md:row-start-1 md:row-end-2 col-start-1 col-end-2 row-start-1 row-end-2"></div>
           </section>
     
           {/************************* HOME MADE END *************************/}
@@ -322,7 +322,7 @@ const Randelo = () => {
           {/************************* CONTACT START *************************/}
     
           <section className="contact bg-[#fffbf5] md:grid md:grid-cols-2 md:grid-rows-1 grid grid-cols-1 grid-rows-2">
-            <div className="contact-img bg-contactBg bg-cover bg-center md:col-start-1 md:col-end-2 md:row-start-1 md:row-end-2 col-start-1 col-end-2 row-start-1 row-end-2"></div>
+            <div className="contact-img md:col-start-1 md:col-end-2 md:row-start-1 md:row-end-2 col-start-1 col-end-2 row-start-1 row-end-2"></div>
             <div className="contact-info md:col-start-2 md:col-end-3 md:row-start-1 md:row-end-2 col-start-1 col-end-2 row-start-2 row-end-3 py-20 px-10 ">
               <div
                 data-aos="zoom-in"
