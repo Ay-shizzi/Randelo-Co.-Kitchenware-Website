@@ -12,6 +12,13 @@ export default {
         clampHero: "clamp(2.5rem, 10vw, 8.5rem)",
         clampHeader: "clamp(1.5rem, 6vw, 3.5rem)",
       },
+      backgroundImage: {
+        heroBg: "url('./src/images/Randelo-hero.jpg')",
+        testimonialsBg: "url('./src/images/testimonial-bg.jpg')",
+        dailyDeloBg: "url('./src/images/daily-delo-bg.jpg')",
+        homeMadeBg: "url('./src/images/home-made-img.jpg')",
+        contactBg: "url('./src/images/contact-bg.jpg')",
+      },
     },
   },
   plugins: [],
